@@ -1,0 +1,77 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Make h1 blue and bold */
+h1 {
+    color: blue;
+    font-weight: bold; /* or 700, 800, etc. */
+    margin-bottom: 10px; /* Added some margin */
+}
+
+/* Make h2 blue and bold */
+h2 {
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 10px; /* Added some margin */
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* ... (rest of your CSS) ... */
+
+/* Footer CSS (from previous example) */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #4267B2; /* Facebook blue on hover */
+}
+
+/* Responsive adjustments (optional) */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+}
